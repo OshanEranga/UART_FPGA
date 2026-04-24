@@ -1,0 +1,8 @@
+
+State Machine - |tx_top|uart_tx:U_TX|r_state
+Name r_state.TX_STOP r_state.TX_DATA r_state.TX_START r_state.IDLE r_state.CLEANUP 
+r_state.IDLE 0 0 0 0 0 
+r_state.TX_START 0 0 1 1 0 
+r_state.TX_DATA 0 1 0 1 0 
+r_state.TX_STOP 1 0 0 1 0 
+r_state.CLEANUP 0 0 0 1 1 

@@ -1,0 +1,8 @@
+
+State Machine - |rx_top|uart_rx:U_RX|r_state
+Name r_state.RX_STOP r_state.RX_DATA r_state.RX_START r_state.IDLE r_state.CLEANUP 
+r_state.IDLE 0 0 0 0 0 
+r_state.RX_START 0 0 1 1 0 
+r_state.RX_DATA 0 1 0 1 0 
+r_state.RX_STOP 1 0 0 1 0 
+r_state.CLEANUP 0 0 0 1 1 

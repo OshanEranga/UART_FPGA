@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UOM\SEM_4\EN2111 - Electronic Circuit Design\FPGA\FPGA\uart_rx_board\simulation\modelsim
+vhex_to_7seg
+!i10b 1
+!s100 ;m^U5AiNzB;gV_Pi4P>Q^0
+I=9faRHJabSHRHI9WAokgH2
+VA4z5d[:kV^Ah;>QK5Zf4U0
+Z1 dD:\UOM\SEM_4\EN2111 - Electronic Circuit Design\FPGA\FPGA\uart_rx_board\simulation\modelsim
+w1775428801
+8D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/hex_to_7seg.v
+FD:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/hex_to_7seg.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1777006884.651000
+!s107 D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/hex_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board|D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/hex_to_7seg.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board} -O0
+vrx_top
+IEW`Um[e`0T`3TTgD9QfhH3
+VLIfAlFjB?9bBQhDQ=E]J50
+R1
+w1775428790
+8D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/rx_top.v
+FD:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/rx_top.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 c0V18h:oIiJQzVo9:[VJW0
+!s85 0
+!s108 1777006884.539000
+!s107 D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/rx_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board|D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/rx_top.v|
+!s101 -O0
+vuart_rx
+IcU<8odm7d:;nkVeR5@j9o0
+VIgVMeVGn3XVWi[l`Za0?o1
+R1
+w1775428797
+8D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/uart_rx.v
+FD:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/uart_rx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 LlF:ZgcNd5DHUi2]n0M9D2
+!s85 0
+!s108 1777006884.408000
+!s107 D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board|D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/uart_rx.v|
+!s101 -O0
