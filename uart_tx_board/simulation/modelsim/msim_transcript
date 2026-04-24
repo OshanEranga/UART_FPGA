@@ -1,58 +1,51 @@
-# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
 # do uart_run_msim_rtl_verilog.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+D:/UOM/SEM_4/EN2111\ -\ Electronic\ Circuit\ Design/FPGA/FPGA/uart_tx_board {D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v}
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/projects/uart {C:/altera/13.1/projects/uart/tx_top.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module tx_top
 # 
 # Top level modules:
 # 	tx_top
-# vlog -vlog01compat -work work +incdir+D:/UOM/SEM_4/EN2111\ -\ Electronic\ Circuit\ Design/FPGA/FPGA/uart_tx_board {D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v}
+# vlog -vlog01compat -work work +incdir+C:/altera/13.1/projects/uart {C:/altera/13.1/projects/uart/uart_tx.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module uart_tx
 # 
 # Top level modules:
 # 	uart_tx
 # 
-cd "D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board"
-# reading D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini
-
-if {[file exists rtl_work]} {
-    vdel -lib rtl_work -all
-}
-vlib rtl_work
-vmap work rtl_work
-# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
-#          Updated modelsim.ini.
-
-vlog -vlog01compat -work work tb_tx_top.v tx_top.v uart_tx.v
+restart -f
+# No Design Loaded!
+run 600 ns
+# No Design Loaded!
+cd C:/altera/13.1/projects/uart/
+# reading C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+vlog uart_tx.v tx_top.v tb_tx_top.v
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module tb_tx_top
-# -- Compiling module tx_top
 # -- Compiling module uart_tx
+# -- Compiling module tx_top
+# -- Compiling module tb_tx_top
 # 
 # Top level modules:
 # 	tb_tx_top
-
 vsim work.tb_tx_top
 # vsim work.tb_tx_top 
 # Loading work.tb_tx_top
 # Loading work.tx_top
 # Loading work.uart_tx
 add wave *
-run -all
-# ** Note: $finish    : tb_tx_top.v(44)
-#    Time: 5290 ns  Iteration: 0  Instance: /tb_tx_top
-# 1
-# Break in Module tb_tx_top at tb_tx_top.v line 44
+add wave sim:/tb_tx_top/dut/U_TX/*
+restart -f
+run 600 ns

@@ -5,7 +5,6 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+D:/UOM/SEM_4/EN2111\ -\ Electronic\ Circuit\ Design/FPGA/FPGA/uart_rx_board {D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/uart_rx.v}
-vlog -vlog01compat -work work +incdir+D:/UOM/SEM_4/EN2111\ -\ Electronic\ Circuit\ Design/FPGA/FPGA/uart_rx_board {D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/rx_top.v}
-vlog -vlog01compat -work work +incdir+D:/UOM/SEM_4/EN2111\ -\ Electronic\ Circuit\ Design/FPGA/FPGA/uart_rx_board {D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_rx_board/hex_to_7seg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/FPGA/uart_rx_board {C:/Users/User/Desktop/FPGA/uart_rx_board/uart_rx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/FPGA/uart_rx_board {C:/Users/User/Desktop/FPGA/uart_rx_board/rx_top.v}
 

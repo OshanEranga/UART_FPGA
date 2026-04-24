@@ -2,44 +2,44 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\UOM\SEM_4\EN2111 - Electronic Circuit Design\FPGA\FPGA\uart_tx_board\simulation\modelsim
+Z0 dC:\altera\13.1\projects\uart\simulation\modelsim
 vtx_top
-I6D4z;P2dOzkA_X3T>N8A;1
+I2Q^C4WOWHDQ<FEiV9BeQ81
 VLL5O8g4GXiaOROz@CQDIT1
-Z1 dD:\UOM\SEM_4\EN2111 - Electronic Circuit Design\FPGA\FPGA\uart_tx_board\simulation\modelsim
+Z1 dC:\altera\13.1\projects\uart\simulation\modelsim
 w1775046597
-8D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v
-FD:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v
+8C:/altera/13.1/projects/uart/tx_top.v
+FC:/altera/13.1/projects/uart/tx_top.v
 L0 1
 Z2 OV;L;10.1d;51
 r1
 31
 Z3 o-vlog01compat -work work -O0
 !i10b 1
-!s100 FInZ?:WNLWd5g>X@_V4i]2
+!s100 Ve?acY7oEdnjGLj:;Pk=U1
 !s85 0
-!s108 1777006387.007000
-!s107 D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board|D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v|
+!s108 1775049282.281000
+!s107 C:/altera/13.1/projects/uart/tx_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/projects/uart|C:/altera/13.1/projects/uart/tx_top.v|
 !s101 -O0
-Z4 !s92 -vlog01compat -work work {+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board} -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.1/projects/uart -O0
 vuart_tx
 !i10b 1
-!s100 5h2eI[fJ6zi`G]MU14kjW2
-IjHM@goW6[Vm[zA1TO<CM11
+!s100 ^Zko_LQcN3:d1kLPbdTO90
+IO?GA[5HgC:b90zfKoNg5L3
 VgQ7:AA;WYOd58FcjjR2O10
 R1
 w1775046624
-8D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v
-FD:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v
+8C:/altera/13.1/projects/uart/uart_tx.v
+FC:/altera/13.1/projects/uart/uart_tx.v
 L0 1
 R2
 r1
 !s85 0
 31
-!s108 1777006387.132000
-!s107 D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board|D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v|
+!s108 1775049282.339000
+!s107 C:/altera/13.1/projects/uart/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.1/projects/uart|C:/altera/13.1/projects/uart/uart_tx.v|
 !s101 -O0
 R3
 R4

@@ -1,9 +1,9 @@
 vendor_name = ModelSim
-source_file = 1, D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart.sdc
-source_file = 1, D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tb_tx_top.v
-source_file = 1, D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/tx_top.v
-source_file = 1, D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/uart_tx.v
-source_file = 1, D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/db/uart.cbx.xml
+source_file = 1, C:/altera/13.1/projects/uart/uart.sdc
+source_file = 1, C:/altera/13.1/projects/uart/tb_tx_top.v
+source_file = 1, C:/altera/13.1/projects/uart/tx_top.v
+source_file = 1, C:/altera/13.1/projects/uart/uart_tx.v
+source_file = 1, C:/altera/13.1/projects/uart/db/uart.cbx.xml
 design_name = tx_top
 instance = comp, \LED[0]~output , LED[0]~output, tx_top, 1
 instance = comp, \LED[1]~output , LED[1]~output, tx_top, 1

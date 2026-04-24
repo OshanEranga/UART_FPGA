@@ -1,5 +1,5 @@
 Assembler report for uart
-Fri Apr 24 10:19:38 2026
+Mon Apr 06 09:07:57 2026
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/output_files/uart.sof
+  5. Assembler Device Options: C:/altera/13.1/projects/uart/output_files/uart.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 24 10:19:38 2026 ;
+; Assembler Status      ; Successful - Mon Apr 06 09:07:57 2026 ;
 ; Revision Name         ; uart                                  ;
 ; Top-level Entity Name ; tx_top                                ;
 ; Family                ; Cyclone IV E                          ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                     ;
-+-----------------------------------------------------------------------------------------------+
-; File Name                                                                                     ;
-+-----------------------------------------------------------------------------------------------+
-; D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/output_files/uart.sof ;
-+-----------------------------------------------------------------------------------------------+
++----------------------------------------------------+
+; Assembler Generated Files                          ;
++----------------------------------------------------+
+; File Name                                          ;
++----------------------------------------------------+
+; C:/altera/13.1/projects/uart/output_files/uart.sof ;
++----------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/UOM/SEM_4/EN2111 - Electronic Circuit Design/FPGA/FPGA/uart_tx_board/output_files/uart.sof ;
-+----------------+--------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                ;
-+----------------+--------------------------------------------------------------------------------------------------------+
-; Device         ; EP4CE22F17C6                                                                                           ;
-; JTAG usercode  ; 0x0013CC01                                                                                             ;
-; Checksum       ; 0x0013CC01                                                                                             ;
-+----------------+--------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+; Assembler Device Options: C:/altera/13.1/projects/uart/output_files/uart.sof ;
++----------------+-------------------------------------------------------------+
+; Option         ; Setting                                                     ;
++----------------+-------------------------------------------------------------+
+; Device         ; EP4CE22F17C6                                                ;
+; JTAG usercode  ; 0x0013CC01                                                  ;
+; Checksum       ; 0x0013CC01                                                  ;
++----------------+-------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Apr 24 10:19:36 2026
+    Info: Processing started: Mon Apr 06 09:07:56 2026
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off uart -c uart
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4604 megabytes
-    Info: Processing ended: Fri Apr 24 10:19:38 2026
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4621 megabytes
+    Info: Processing ended: Mon Apr 06 09:07:57 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

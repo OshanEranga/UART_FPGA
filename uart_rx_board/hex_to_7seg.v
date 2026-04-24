@@ -3,6 +3,25 @@ module hex_to_7seg (
     output reg [6:0] o_seg   // o_seg = {g, f, e, d, c, b, a}
 );
 
+    // Common anode: 0 = segment ON, 1 = segment OFF
+    //
+    //    --a--
+    //   |     |
+    //   f     b
+    //   |     |
+    //    --g--
+    //   |     |
+    //   e     c
+    //   |     |
+    //    --d--
+    //
+    // o_seg[0] = a
+    // o_seg[1] = b
+    // o_seg[2] = c
+    // o_seg[3] = d
+    // o_seg[4] = e
+    // o_seg[5] = f
+    // o_seg[6] = g
 
     always @(*) begin
         case (i_hex)

@@ -8,8 +8,7 @@ entity rx_top is
         CLOCK_50        : in     vl_logic;
         KEY             : in     vl_logic_vector(1 downto 0);
         UART_RX         : in     vl_logic;
-        LED             : out    vl_logic_vector(7 downto 0);
-        SEG             : out    vl_logic_vector(6 downto 0)
+        LED             : out    vl_logic_vector(7 downto 0)
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of CLKS_PER_BIT : constant is 1;

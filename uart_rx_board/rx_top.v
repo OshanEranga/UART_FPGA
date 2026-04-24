@@ -9,6 +9,7 @@ module rx_top
     output [7:0] LED,
     output [6:0] SEG        // single 7-seg display (lower nibble)
 );
+
     wire rst_n;
     wire rx_dv;
     wire [7:0] rx_byte;
@@ -16,6 +17,7 @@ module rx_top
 
     assign rst_n = KEY[1];
     assign LED   = led_reg;
+
     // Latch received byte into LED register
     always @(posedge CLOCK_50 or negedge rst_n) begin
         if (!rst_n)
@@ -23,6 +25,7 @@ module rx_top
         else if (rx_dv)
             led_reg <= rx_byte;
     end
+
     // UART receiver instance
     uart_rx #(
         .CLKS_PER_BIT(CLKS_PER_BIT)
@@ -33,9 +36,11 @@ module rx_top
         .o_rx_dv(rx_dv),
         .o_rx_byte(rx_byte)
     );
+
     // 7-segment decoder for lower nibble
     hex_to_7seg U_SEG (
         .i_hex(led_reg[3:0]),
         .o_seg(SEG)
     );
+
 endmodule
